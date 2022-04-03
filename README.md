@@ -1,9 +1,11 @@
 # webtech
 
 This project is about adding new articles to blog site, You can create new article, delete existing article or edit that article. 
-You can see live demo here 
-***[live](https://evening-kind-tanker.glitch.me/)***
+You can see live demo here
+<br>
+***[host link](https://evening-kind-tanker.glitch.me/)***
 
+------
 Architecture of the project looks like that:
 1. models
     - article.js
