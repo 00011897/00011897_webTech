@@ -9,7 +9,6 @@ Architecture of the project looks like that:
     - article.js
 2. routes
     - articles.js
-    - Indented item
 3. views/articles
     - _form_fields.ejs
     - edit.ejs
