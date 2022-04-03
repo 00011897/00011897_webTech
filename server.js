@@ -4,8 +4,9 @@ const Article = require('./models/article')
 const articleRouter = require('./routes/articles')
 const methodOverride = require('method-override')
 const app = express()
+const DBs = process.env
 
-mongoose.connect('mongodb+srv://fullstack:fullstack@astrum.dfoka.mongodb.net/astrum?retryWrites=true&w=majority', {
+mongoose.connect(`mongodb+srv://${DBs.ADMIN}:${DBs.PASS}@astrum.dfoka.mongodb.net/${DBs.DB}?retryWrites=true&w=majority`, {
   useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true
 })
 
